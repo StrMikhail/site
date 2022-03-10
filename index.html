@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <div class="header"><p>Progress</p></div>
+        <!-- Circle container -->
+        <div class="container rotate" >
+            <div class="progressbar">
+                <div class="circle">
+                    <div class="outer">
+                        <div class="inner"></div>
+                    </div>
+                </div>
+                <svg class="progress-ring" width="240" height="240" >
+                    <circle class="progress-ring__circle" cx="120" cy="120" r="90"  />
+                </svg>
+            </div>
+        
+         <!-- Douple position buttons container -->
+            <div class="container-block">
+                <div class="container-btn">
+        
+                    <div class="switch-container">
+                        <label class="input">
+                            <input class="circle-progress" type="number">
+                            <span class="input round "></span>
+                        </label>
+                        <p class="input_text">Value</p>
+                    </div>
+            
+                    <div class="switch-container">
+                        <label class="switch animates">
+                            <input class="animation" type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                        <p class="input_text">Animate</p>
+                    </div>
+        
+                    <div class="switch-container">
+                        <label class="switch hide">
+                            <input class="hiden" type="checkbox">
+                            <span class="slider round" ></span>
+                        </label>
+                        <p class="input_text">Hide</p>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+    
+
+</body>
+<script src="index.js"></script>
+</html>
+
+
+

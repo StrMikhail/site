@@ -1,0 +1,12 @@
+
+.error-message{
+    height: 100%;
+    text-align: center;
+    justify-content: end;
+   
+    
+  }
+.error-message p{
+    background-color:rgb(240, 97, 97);
+    color: white;
+}
