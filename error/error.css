@@ -1,12 +1,20 @@
 
 .error-message{
-    height: 100%;
     text-align: center;
-    justify-content: end;
-   
+    position:relative;
+    /* justify-content: end; */
+    /* padding-top: ; */
     
   }
 .error-message p{
+    /* padding: 0px; */
     background-color:rgb(240, 97, 97);
     color: white;
+}
+
+@media (max-height: 500px) {
+  
+.error-message{
+  padding-top: 10px;
+}
 }
